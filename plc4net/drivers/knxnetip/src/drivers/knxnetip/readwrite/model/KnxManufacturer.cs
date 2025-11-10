@@ -791,8 +791,10 @@ namespace org.apache.plc4net.drivers.knxnetip.readwrite.model
         M_HYUNDAI = 763,
         M_QINGDAO_HISENSE_TRANSTECH_CO__LTD_ = 764,
         M_SPECIALCAVI_BALDASSARI_SRL = 765,
-        M_ABB___RESERVED = 766,
-        M_BUSCH_JAEGER_ELEKTRO___RESERVED = 767,
+        M_OSPA_APPARATEBAU_PAUSER_GMBH_AND_CO__KG = 766,
+        M_PLH = 767,
+        M_ABB___RESERVED = 768,
+        M_BUSCH_JAEGER_ELEKTRO___RESERVED = 769,
     }
 
     public static class KnxManufacturerInfo
@@ -3025,10 +3027,16 @@ namespace org.apache.plc4net.drivers.knxnetip.readwrite.model
                 case KnxManufacturer.M_SPECIALCAVI_BALDASSARI_SRL: { /* '765' */
                     return 826;
                 }
-                case KnxManufacturer.M_ABB___RESERVED: { /* '766' */
+                case KnxManufacturer.M_OSPA_APPARATEBAU_PAUSER_GMBH_AND_CO__KG: { /* '766' */
+                    return 827;
+                }
+                case KnxManufacturer.M_PLH: { /* '767' */
+                    return 828;
+                }
+                case KnxManufacturer.M_ABB___RESERVED: { /* '768' */
                     return 43954;
                 }
-                case KnxManufacturer.M_BUSCH_JAEGER_ELEKTRO___RESERVED: { /* '767' */
+                case KnxManufacturer.M_BUSCH_JAEGER_ELEKTRO___RESERVED: { /* '769' */
                     return 43959;
                 }
                 case KnxManufacturer.M_UPONOR: { /* '77' */
@@ -5339,10 +5347,16 @@ namespace org.apache.plc4net.drivers.knxnetip.readwrite.model
                 case KnxManufacturer.M_SPECIALCAVI_BALDASSARI_SRL: { /* '765' */
                     return "SPECIALCAVI BALDASSARI SRL";
                 }
-                case KnxManufacturer.M_ABB___RESERVED: { /* '766' */
+                case KnxManufacturer.M_OSPA_APPARATEBAU_PAUSER_GMBH_AND_CO__KG: { /* '766' */
+                    return "Ospa Apparatebau Pauser GmbH & Co. KG";
+                }
+                case KnxManufacturer.M_PLH: { /* '767' */
+                    return "PLH";
+                }
+                case KnxManufacturer.M_ABB___RESERVED: { /* '768' */
                     return "ABB - reserved";
                 }
-                case KnxManufacturer.M_BUSCH_JAEGER_ELEKTRO___RESERVED: { /* '767' */
+                case KnxManufacturer.M_BUSCH_JAEGER_ELEKTRO___RESERVED: { /* '769' */
                     return "Busch-Jaeger Elektro - reserved";
                 }
                 case KnxManufacturer.M_UPONOR: { /* '77' */
